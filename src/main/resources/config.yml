@@ -1,0 +1,24 @@
+# Language for console messages.
+console-language: "en"
+
+triggers:
+  zombie_surprise:
+    # The item ID that RoseLoot drops
+    item: "ZOMBIE_HEAD"
+    # The custom name of the item (supports & color codes)
+    name: "&cCursed Catch"
+    # The mob to spawn
+    mob: "ZOMBIE"
+    amount: 1
+    # If true, the player keeps the item. If false, the item is consumed (deleted).
+    keep-item: false
+    # If true, the mob will fly towards the player like a vanilla item.
+    fly-to-player: true
+
+  treasure_drowned:
+    item: "BARREL"
+    name: "&6Sunken Treasure"
+    mob: "DROWNED"
+    amount: 2
+    keep-item: true
+    fly-to-player: true

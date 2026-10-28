@@ -1,0 +1,14 @@
+en:
+  mob-spawned: "&4&lA %mob% jumped out of the water!"
+ru:
+  mob-spawned: "&4&lИз воды выпрыгнул %mob%!"
+
+console:
+  en:
+    plugin-enabled: "HookSpawner v1.1.0 enabled. Loaded triggers: %amount%"
+    config-error: "Plugin disabled due to configuration errors."
+    invalid-trigger: "Error in trigger '%key%': invalid item or mob ID. Skipped."
+  ru:
+    plugin-enabled: "HookSpawner v1.1.0 включен. Загружено триггеров: %amount%"
+    config-error: "Плагин отключен из-за ошибок в конфигурации."
+    invalid-trigger: "Ошибка в триггере '%key%': неверный ID предмета или моба. Пропущено."
