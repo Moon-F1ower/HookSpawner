@@ -36,14 +36,17 @@ This plugin is designed as a **companion** to [RoseLoot](https://modrinth.com/pl
 ## 📦 Installation
 
 1. Install **RoseLoot** on your server.
-2. Download `HookSpawner-x.y.z.jar` and place it in your `plugins/` folder.
-3. Restart the server.
-4. Configure your triggers in `plugins/HookSpawner/config.yml`.
+2. Download `HookSpawner-x.y.z.jar` and place it in your server's `plugins/` folder.
+3. Restart the server to generate the configuration files.
+4. Open the folder **`plugins/HookSpawner/`** and edit `config.yml` to set up your triggers.
 5. Set up RoseLoot to drop those exact items.
 
 ---
 
 ## 🧩 Configuration
+
+All settings are located in **`plugins/HookSpawner/config.yml`**. 
+*(After editing, use `/reload confirm` in-game or restart the server to apply changes).*
 
 You can use `&` for color codes in names (the plugin translates them automatically).
 
