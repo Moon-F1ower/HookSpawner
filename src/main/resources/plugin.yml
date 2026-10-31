@@ -1,5 +1,5 @@
 name: HookSpawner
-version: 1.2.0
+version: 1.1.1
 main: com.moonflower.hookspawner.HookSpawner
 api-version: '1.21'
 description: Bridge plugin for RoseLoot to spawn mobs at the fishing hook.
