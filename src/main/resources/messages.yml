@@ -1,14 +1,26 @@
 en:
   mob-spawned: "&4&lA %mob% jumped out of the water!"
+  reloaded: "&aConfiguration and messages reloaded successfully!"
+  list-header: "&e--- HookSpawner Triggers ---"
+  list-item: "&7- &f%trigger% &7(&f%item% &7-> &f%mob%&7)"
+  test-spawned: "&aSpawned %amount% %mob% for testing."
+  no-triggers: "&cNo triggers loaded."
+  usage: "&eUsage: /hs [reload|list|test <trigger>]"
 ru:
   mob-spawned: "&4&lИз воды выпрыгнул %mob%!"
+  reloaded: "&aКонфигурация и сообщения успешно перезагружены!"
+  list-header: "&e--- Триггеры HookSpawner ---"
+  list-item: "&7- &f%trigger% &7(&f%item% &7-> &f%mob%&7)"
+  test-spawned: "&aЗаспавнено %amount% %mob% для теста."
+  no-triggers: "&cТриггеры не загружены."
+  usage: "&eИспользование: /hs [reload|list|test <trigger>]"
 
 console:
   en:
-    plugin-enabled: "HookSpawner v1.1.0 enabled. Loaded triggers: %amount%"
+    plugin-enabled: "HookSpawner v1.2.0 enabled. Loaded triggers: %amount%"
     config-error: "Plugin disabled due to configuration errors."
     invalid-trigger: "Error in trigger '%key%': invalid item or mob ID. Skipped."
   ru:
-    plugin-enabled: "HookSpawner v1.1.0 включен. Загружено триггеров: %amount%"
+    plugin-enabled: "HookSpawner v1.2.0 включен. Загружено триггеров: %amount%"
     config-error: "Плагин отключен из-за ошибок в конфигурации."
     invalid-trigger: "Ошибка в триггере '%key%': неверный ID предмета или моба. Пропущено."
