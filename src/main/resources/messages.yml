@@ -27,10 +27,10 @@ ru:
 
 console:
   en:
-    plugin-enabled: "HookSpawner v1.2.0 enabled. Loaded triggers: %amount%"
+    plugin-enabled: "HookSpawner v1.1.1 enabled. Loaded triggers: %amount%"
     config-error: "Plugin disabled due to configuration errors."
     invalid-trigger: "Error in trigger '%key%': invalid item or mob ID. Skipped."
   ru:
-    plugin-enabled: "HookSpawner v1.2.0 включен. Загружено триггеров: %amount%"
+    plugin-enabled: "HookSpawner v1.1.1 включен. Загружено триггеров: %amount%"
     config-error: "Плагин отключен из-за ошибок в конфигурации."
     invalid-trigger: "Ошибка в триггере '%key%': неверный ID предмета или моба. Пропущено."
